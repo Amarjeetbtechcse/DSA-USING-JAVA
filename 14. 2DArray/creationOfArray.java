@@ -5,6 +5,7 @@ public class creationOfArray {
     public static void main(String[] args) {
         int matrix[][] = new int[3][4]; // 3x4 matrix
         int m = matrix.length, n = matrix[0].length;
+        
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the elements of the array in m*n format: ");
